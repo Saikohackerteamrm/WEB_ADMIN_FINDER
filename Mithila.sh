@@ -115,7 +115,7 @@ fi
 web=$(echo ${web} | cut -d '/' -f 3)
 
 
-echo -ne "      \t${c}[${w}>${c}] ${w}Enter your wordlist ${g}(${w}Default${g}:${w} wordlist.txt${g}) ${g}:${n} "
+echo -ne "      \t${c}[${w}>${c}] ${w}Enter your wordlist ${g}(${w} Example:- Type${g}:${w} wordlist.txt${g}) ${g}:${n} "
 read wordlist
 
 echo -ne "      \t${c}[${w}>${c}] ${w}Do you want to save the output? (yes/no) ${g}:${n} "
